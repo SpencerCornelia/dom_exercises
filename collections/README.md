@@ -29,6 +29,10 @@ see how to work with them.
   of `function`.
 - Use a loop to change color of each one to `blue`.
 
+for (i=0; i < data.length; i++) {
+   data[i].style.color = "blue"
+}
+
 ## Further Questions
 
 - What are the differences between `.getElementById`,

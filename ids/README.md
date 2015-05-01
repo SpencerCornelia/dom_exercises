@@ -11,6 +11,9 @@ We're going to practice DOM manipulation for elements with IDs.
 - Use `.innerHTML` to change the contents of `main-heading` to be "Fun
   DOM Example".
 
+answers --- var heading = document.querySelector("#main-heading")
+			heading.innerHTML = "Fun DOM Example"
+
 ## Part 2
 
 I think the diagram of the DOM is slightly too big. I could open it in
@@ -20,6 +23,9 @@ HTML, CSS, and JavaScript.
 - Use `.querySelector` grab the image.
 - Change the `.style.height` property of the image to be `5000px`.
 - Hmm, that's too big. Try `300px`.  I like that better.
+
+answers -- var image = document.querySelector("#diagram")
+		   image.style.height = "300px";	
 
 ## Part 3
 
@@ -32,9 +38,13 @@ using the techniques we've already learned?
 - Perhaps that's better.
 - Change it back to `img/dom_model.svg` for comparison's sake.
 
+answers -- image.setAttribute("src", "img/dom_basic.png")
+
+
 ## Questions
 
 - Why do we use `.innerHTML` to change the heading but `.setAttribute`
   to change the diagram?
+  .innerHTML --> 
 - What was different about the way we changed the `style` of the image
   from the way we changed its `src`?

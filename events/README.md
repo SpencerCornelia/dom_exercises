@@ -55,6 +55,9 @@ mouse moves, when keys are pressed, and when forms are submitted.
 ## Questions
 
 - What does `event.preventDefault()` do?
+	--> stops the page from refreshing 
 - Why do we listen for the `submit` event on a `<form>` instead of
   listening for the `click` event on the submit button?
+    --> the user can press enter and never allow for a click to happen
 - What does the `window`'s `load` event allow us to do?
+	--> wait for everything to load before any type of prompting or alerting occurs

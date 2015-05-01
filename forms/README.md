@@ -34,4 +34,6 @@
 ## Questions
 
 - When can we use `.innerHTML` and when can we use `.value`?
+  --> .value needs to have value as an attribute.  .innerHTML needs to have two different tags
 - What do you use when determining if a checkbox is checked?
+  --> 
